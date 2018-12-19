@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Style Sheet Selector</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="https://github.com/jvining">
+	<meta name="description" content="Streamlined demo showing dynamic dropdown addtional stylesheet selector, built on Starter Bootstrap Template (http://bit.ly/1SnymWq)">
+ 
+	<!-- Open Graph -->
+ 	<meta property="og:url" content="https://jvining.github.io/style-sheet-selector" />
+	<meta property="og:type" content="Product" />
+	<meta property="og:title" content="Style Sheet Selector"/>
+	<meta property="og:description" content="Streamlined demo showing dynamic dropdown addtional stylesheet selector, built on Starter Bootstrap Template (http://bit.ly/1SnymWq)" />
+	<meta property="og:image" content="https://placeholdit.co/i/600x315?bg=563d7c&fc=fff&text=style%20sheet%20selector" />
+
+	<!-- CSS -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+ 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="null" rel="stylesheet" type="text/css" id="stylelink">
+
+</head>
+<body>
+
+ 	<nav class="navbar navbar-inverse navbar-fixed-top">
+ 	    <div class="container">
+ 	        <div class="navbar-header">
+ 	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+ 	                <span class="sr-only">Toggle navigation</span>
+ 	                <span class="icon-bar"></span>
+ 	                <span class="icon-bar"></span>
+ 	                <span class="icon-bar"></span>
+ 	            </button>
+ 	            <a class="navbar-brand">Style Sheet Selector</a>
+ 	        </div>
+ 	        <div class="collapse navbar-collapse" id="navbar-collapse">
+ 	            <ul class="nav navbar-nav ">
+ 	                <li><a>About</a></li>
+ 	                <li><a>Services</a></li>
+ 	                <li><a>Contact</a></li>
+			    	<form action="#" name="colour" id="colour" onsubmit="return false;" class="pull-right voffset1">
+			    	      <select id="colourselector" name="colour">
+			    	        	<option>Select a Style</option>>
+								<option value="themes/paper.bootstrap.min.css">paper</option>
+								<option value="themes/slate.bootstrap.min.css">slate</option>
+								<option value="themes/lumen.bootstrap.min.css">lumen</option>
+								<option value="themes/yeti.bootstrap.min.css">yeti</option>
+								<option value="themes/darkly.bootstrap.min.css">darkly</option>
+								<option value="themes/spacelab.bootstrap.min.css">spacelab</option>
+								<option value="themes/flatly.bootstrap.min.css">flatly</option>
+								<option value="themes/superhero.bootstrap.min.css">superhero</option>
+								<option value="themes/simplex.bootstrap.min.css">simplex</option>
+								<option value="themes/cerulean.bootstrap.min.css">cerulean</option>
+								<option value="themes/cyborg.bootstrap.min.css">cyborg</option>
+								<option value="themes/cosmo.bootstrap.min.css">cosmo</option>
+								<option value="themes/sandstone.bootstrap.min.css">sandstone</option>
+								<option value="themes/readable.bootstrap.min.css">readable</option>
+								<option value="themes/journal.bootstrap.min.css">journal</option>
+								<option value="themes/united.bootstrap.min.css">united</option>
+	 					</select>
+			    	</form>
+ 	             </ul>
+ 	        </div>
+ 	    </div>
+ 	</nav>
+
+ 	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+ 				<h1>Header Level 1</h1>
+				<h2>Header Level 2</h2>
+				<h3>Header Level 3</h3>
+				<h4>Header Level 4</h4>
+				<h5>Header Level 5</h5>
+				<h3 class="page-header">Paragraph Level Typography </h3>
+	 				<p>Lorem ipsum dolor sit amet, <strong>consectetuer adipiscing elit.Pellentesque</strong> habitant morbi tristique senectus et netus et malesuada fames ac turpis
+		 			Mauris placerat eleifend leo.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Pellentesque habitant morbi tristique senectus e netus et malesuada fames
+		 			<em>ac turpis egestas. Vestibulum tortor quam, feugiat vitae,</em> ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+		 			ultricies mi vitae est. Mauris placerat eleifend leo.Lorem ipsum dolor sit amet, consectetuer<code> adipiscing elit.Pellentesque habitant</code> morbi tristique
+		 			senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+		 			<a>egestas semper. Aenean</a> ultricies mi vitae est. Mauris placerat eleifend leo. Lorem ipsum dolor sit amet, <strong>consectetuer adipiscing</strong></p>
+		
+ 				<h3 class="page-header">Buttons </h3>
+		 			<a class="btn btn-primary">btn-primary</a>
+					<a class="btn btn-default">btn-default</a>
+					<a class="btn btn-danger">btn-danger</a>
+					<a class="btn btn-warning">btn-warning</a>
+					<a class="btn btn-success">btn-success</a>
+					<a class="btn btn-info">btn-danger</a>
+					
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+		  				<h3 class="page-header">Un-Ordered List Typography </h3>
+						<ul>
+						   <li>Lorem ipsum dolor sit amet.</li>
+						   <li>Consectetuer adipiscing elit.</li>
+						   <li>Pellentesque habitant morbi tristique senectus.</li>
+						   <li>Et netus et malesuada fames ac turpis.</li>
+						</ul>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<h3 class="page-header">Ordered List Typography </h3>
+					   	<ol>
+					      <li>Lorem ipsum dolor sit amet.</li>
+					      <li>Consectetuer adipiscing elit.</li>
+					      <li>Pellentesque habitant morbi tristique senectus.</li>
+					      <li>Et netus et malesuada fames ac turpis.</li>
+					   	</ol>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<h3 class="page-header">Desc/Term List Typography </h3>
+						<dl>
+							<dt>Lorem ipsum dolor sit amet</dt>
+							<dd>- Consectetuer adipiscing elit</dd>
+							<dt>Pellentesque habitant morbi tristique senectus</dt>
+							<dd>- Et netus et malesuada fames ac turpis</dd>
+						</dl>
+ 					</div>
+				</div>
+				
+				<h3 class="page-header">Blockquote Typography </h3>
+					<blockquote>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a ligula molestie gravida. </p>
+						<cite>Lorem ipsum dolor sit amet</cite>
+					</blockquote>
+			</div>
+		</div> 
+	</div> 
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<p>Style Sheet Selector &copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script></p>
+  				</div>
+				<div class="col-md-4 col-md-offset-4">
+					<ul class="list-unstyled list-inline">
+						<li><a target="_blank" href="https://getbootstrap.com" data-toggle="tooltip" data-placement="top" data-original-title="Version: 3.3.7">Bootstrap </a></li>
+						<li><a target="_blank" href="https://fontawesome.io/" data-toggle="tooltip" data-placement="top" data-original-title="Version: 4.6.3">Font Awesome </a></li>
+						<li><a target="_blank" href="https://jquery.com/" data-toggle="tooltip" data-placement="top" data-original-title="Version: 1.9.1">Jquery </a></li>
+ 					</ul>
+ 	 			</div>
+			</div>
+		</div>
+	</footer>
+	
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+	// Enable Tool Tips Globally 
+	$(function () {
+	  $('[data-toggle="tooltip"]').tooltip()
+	})
+
+	// Style Sheet Selector
+	$('#colourselector').change(function(){ 
+	 $('#stylelink').attr('href',$(this).val());
+	});
+</script>
+</body>
+</html>
